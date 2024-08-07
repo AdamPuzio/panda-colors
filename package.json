@@ -14,10 +14,20 @@
   },
   "scripts": {
     "start": "tsup --watch",
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Adam T. Puzio",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamPuzio/panda-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamPuzio/panda-colors/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://adampuzio.github.io/panda-docs/",
   "devDependencies": {
     "@types/node": "^20.14.9",
     "tsup": "^8.1.0",
